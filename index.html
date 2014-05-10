@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="lib/jquery/jquery.js"></script>
   <script src="index.js"></script>
-
-  <title>SweetSpot.</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>SweetSpot</title>
 </head>
 
 <body>
-  <h4>Welcome to SweetSpot.</h4>
+  <h1 class="intro">SweetSpot.</h1>
+  <h3 class="tagline">Deal-Flow Crunchbase Crawler</h3>
   <div class="main"></div>
-  <div class="startups"></div>
+  <div class="center">
+    <table id="one-column-emphasis">
+      <thead>
+        <tr scope="col">
+          <th>Company</th>
+          <th>Series</th>
+          <th>Date</th>
+          <th>Raised</th>
+        </tr>
+      </thead>
+      <tbody class="startups">
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
-
