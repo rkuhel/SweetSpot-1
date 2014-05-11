@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="lib/jquery/jquery.js"></script>
-  <script src="index.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>SweetSpot</title>
-</head>
-
+  <head>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>SweetSpot</title>
+  </head>
 <body>
-  <div class="intro">
+  <header>
     <h1 class="name">SweetSpot.</h1>
+  </header>
+  <div class="main">
+    <div class="about-box">
+      <p class="about-title">About</p>
+      <p>SweetSpot is an application that scraps the</p>
+      <p>Crunchbase API to source companies that have</p>
+      <p>raised between $100k-$1M in the past three years.</p>
+    </div>
+    <div class="crunch">
+      <table class="table-style">
+        <thead>
+          <tr scope="tabble-header">
+            <th>Company</th>
+            <th>Series</th>
+            <th>Date</th>
+            <th>Raised</th>
+          </tr>
+        </thead>
+        <tbody class="startups-rows">
+        </tbody>
+      </table>
+    </div>
   </div>
-  <div class="tagline">
-    <p class="about">About</p>
-    <p>SweetSpot is an application that scraps the</p>
-    <p>Crunchbase API to source companies that have</p>
-    <p>raised between $200k-$1M in the past three years.</p>
-  </div>
-  <div class="main"></div>
-  <div class="center">
-    <table id="one-column-emphasis">
-      <thead>
-        <tr scope="col">
-          <th>Company</th>
-          <th>Series</th>
-          <th>Date</th>
-          <th>Raised</th>
-        </tr>
-      </thead>
-      <tbody class="startups">
-      </tbody>
-    </table>
-  </div>
-
-  <div class="footer">
-    <hr>
-    <span class="desc">Built By</span>
-    <a href="http://www.linkedin.com/in/ryankuhel/" target="_blank">Ryan Kuhel</a> |
-    <a href="http://www.linkedin.com/pub/dmitriy-afanasyev/3a/703/121" target="_blank">Dmitriy Afanasyev</a>
+<!--   <hr> -->
+  <footer>
+    <span class="desc">Built By:</span>
+    <a href="http://www.linkedin.com/pub/dmitriy-afanasyev/3a/703/121" target="_blank">Dmitriy Afanasyev</a> |
+    <a href="http://www.linkedin.com/in/ryankuhel/" target="_blank">Ryan Kuhel</a>
     <a href="http://www.metamorphic.vc/" target="_blank"><img src="images/headerLogo.jpg" alt="Metamorphic Ventures" class="logo"></a>
-  </div>
+    <p class="power">Powered By:<a href="http://www.Crunchbase.com">Crunchbase API</a></p>
+  </footer>
 </body>
 </html>

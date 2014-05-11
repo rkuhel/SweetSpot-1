@@ -15,7 +15,7 @@ $(document).ready(function() {
             fundingRounds:[]
           });
           //$('div.startups').append("<div>"+value.name+"</div>")
-          return index < 100;
+          return index < 500;
         })
       } else {
         console.log("nothing")
