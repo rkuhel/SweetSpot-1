@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+html, body {
+   width: 100%;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    background: #ffb027;
+}
+.name {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 62px;;
+  padding-left: 45%;
+}
+.main {
+  display: inline-block;
+  height: 500px;
+  width: 100%;
+  background-color: #dddddd;
+}
+.about-box {
+  width: 450px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  float: right;
+}
+.about-box {
+  float: right;
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: white;
+  opacity: .5;
+  margin-top: 100px;
+  margin-right: 10%;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+.about-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
+.crunch {
+  float: left;
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-left: 10%;
+
+}
+
+.table-style {
+	width: 500px;
+  	font-size: 25px;
+	margin-top: 45px;
+	text-align: left;
+	border-collapse: collapse;
+
+}
+.table-style th {
+	border-bottom: 1px solid #e8edff;
+
+}
+.table-style td {
+  font-size: 12px;
+  border-top: 1px solid #e8edff;
+}
+.table-style tr:hover td {
+  	color: #339;
+	background: #eff2ff
+}
+
+footer {
+  display: inline-block;
+  padding-top: 20px;
+  width: 100%;
+  background-color: white;
+}
+.desc, .power {
+	font-family: 'Lato', sans-serif;
+	padding-left: 10px;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+	color: blue;
+	padding-left: 5px;
+}
+.logo {
+	float: right;
+	padding: 15px;
+
+}
