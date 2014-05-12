@@ -137,7 +137,7 @@ function filterAndShow(companyObject) {
     return false;
   }
   if (totalFunding > 100000 && totalFunding < 1000000) {
-    $("tbody.startups-rows").after("<tr><td><a href='https://www.google.com/#q=www.crunchbase.com:"+companyObject.companyName+"' target='_blank'>" + companyObject.companyName + "</a></td><td>" + companyObject.fundingRounds[indexOfTop].series + "</td><td>" +
+    $("tbody.startups-rows").append("<tr><td><a href='https://www.google.com/#q=www.crunchbase.com:"+companyObject.companyName+"' target='_blank'>" + companyObject.companyName + "</a></td><td>" + companyObject.fundingRounds[indexOfTop].series + "</td><td>" +
       companyObject.fundingRounds[indexOfTop].announcedDate + "</td><td> $" + companyObject.fundingRounds[indexOfTop].moneyRaised + "</td></tr>");
   }
 }

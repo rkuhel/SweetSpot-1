@@ -41,6 +41,8 @@ header {
   opacity: .5;
   margin-top: 100px;
   margin-right: 10%;
+  box-shadow: 10px 10px 5px #888888;
+
 }
 .about-title {
   font-family: 'Lato', sans-serif;
@@ -52,11 +54,11 @@ header {
   width: 500px;
   height: 500px;
   margin-left: 10%;
+
 }
 
 .table-style {
 	width: 500px;
-  	font-family: 'Lato', sans-serif;
   	font-size: 25px;
 	margin-top: 45px;
 	text-align: left;
@@ -68,14 +70,17 @@ header {
 
 }
 .table-style td {
+  font-size: 12px;
   border-top: 1px solid #e8edff;
 }
 .table-style tr:hover td {
   	color: #339;
 	background: #eff2ff
 }
+
 footer {
   display: inline-block;
+  padding-top: 20px;
   width: 100%;
   background-color: white;
 }
